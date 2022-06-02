@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #2c5364, #203a43);
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  padding: 3rem 5rem;
+  max-width: 700px;
+}
+.card p {
+  padding-top: 1rem;
+  line-height: 150%;
+}
